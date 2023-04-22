@@ -99,5 +99,20 @@ font-size: x-large;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-columns: 1fr;
+        }
 }
+@media(max-width: 780px){
+    .hero{
+    background-image:url(../img/fongo\ hero.jpg);
+    }
+}
+@media(max-width: 780px){
+    .text{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 780px){
+    .text2{
+        font-size: 0.8rem;
+    }
 }
