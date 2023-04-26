@@ -1,0 +1,16 @@
+.hero{
+    background-image: url("../img/fondo-hero.jpg");
+    background-attachment: fixed;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .text{
+        background-color: #E0E0E0;
+        border-radius: 0.5rem;
+    }
+}

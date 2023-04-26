@@ -1,0 +1,16 @@
+@media(max-width: 768px){
+    .nosotrosSeccion {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        }
+    .hero{
+    background-image:url(../img/fongo\ hero.jpg);
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .text2{
+        font-size: 0.8rem;
+    }
+}

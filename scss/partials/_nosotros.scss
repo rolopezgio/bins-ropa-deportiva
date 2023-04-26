@@ -1,0 +1,18 @@
+.nosotrosSeccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .textoNosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .tituloNosotros{
+            font-family: "Audiowide", cursive;
+        }
+        .parrafoNosotros{
+            .logoNosotros{
+                width: 3.5rem;
+            }
+        }
+    }
+}

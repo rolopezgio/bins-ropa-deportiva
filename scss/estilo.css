@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Cinzel&family=Gochi+Hand&family=Patrick+Hand+SC&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  justify-content: space-between;
+}
+.header .logo .img .logoHeader {
+  width: 5rem;
+}
+.header .menu {
+  position: sticky;
+  top: 0;
+}
+.header .menu .li a {
+  font-family: "Audiowide", cursive;
+}
+
+.inicio:hover {
+  text-decoration: underline;
+}
+
+.destacados:hover {
+  text-decoration: underline;
+}
+
+.indumentaria:hover {
+  text-decoration: underline;
+}
+
+.nosotros:hover {
+  text-decoration: underline;
+}
+
+.contacto:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  border: 1px solid black !important;
+}
+
+.hero {
+  background-image: url("../img/fondo-hero.jpg");
+  background-attachment: fixed;
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .text {
+  background-color: #E0E0E0;
+  border-radius: 0.5rem;
+}
+
+.referencia {
+  background-color: #E0E0E0;
+}
+
+.logos {
+  font-size: xx-large;
+}
+
+.titles {
+  font-family: "Cinzel", serif;
+}
+
+.titleCarrusel {
+  font-family: "Audiowide", cursive;
+}
+
+.cardBody * {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBody * .titleCards {
+  font-family: "Audiowide", cursive;
+}
+
+.nosotrosSeccion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nosotrosSeccion .textoNosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nosotrosSeccion .textoNosotros .tituloNosotros {
+  font-family: "Audiowide", cursive;
+}
+.nosotrosSeccion .textoNosotros .parrafoNosotros .logoNosotros {
+  width: 3.5rem;
+}
+
+.footer .logoFooter a {
+  font-size: x-large;
+}
+.footer .logoFooter a:hover {
+  font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+  .nosotrosSeccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    background-image: url(../img/fongo\ hero.jpg);
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .text2 {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=estilo.css.map */

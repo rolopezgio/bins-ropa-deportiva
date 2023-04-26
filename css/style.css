@@ -10,10 +10,17 @@
 .header{
     justify-content: space-between
 }
+.menu{
+    position: sticky;
+    top: 0;
+}
+.menu li a{
+    font-family: "Audiowide", cursive;
+}
 .hero{
-    background-image: url("../img/fondo\ hero.jpg");
+    background-image: url("../img/fondo-hero.jpg");
     background-attachment: fixed;
-    height:150vh;
+    height: 150vh;
     background-size: cover;
     background-position: center;
     background-position: top;
@@ -22,25 +29,18 @@
     justify-content: center;
     align-items: center;
 }
-.menu{
-    position: sticky;
-    top: 0;
-}
-.menu li a{
-    font-family: "Audiowide", cursive;
-}
 .referencia{
     background-color: #E0E0E0;
 }
 .logos{
     font-size: xx-large;
 }
-.titles{
-    font-family: 'Cinzel', serif;
-}
 .text{
     background-color: #E0E0E0;
     border-radius: 0.5rem;
+}
+.titles{
+    font-family: 'Cinzel', serif;
 }
 .titleCarrusel{
     font-family: "Audiowide", cursive;
@@ -100,18 +100,12 @@ font-size: x-large;
         grid-template-columns: 1fr;
         grid-template-columns: 1fr;
         }
-}
-@media(max-width: 780px){
     .hero{
     background-image:url(../img/fongo\ hero.jpg);
     }
-}
-@media(max-width: 780px){
     .text{
         font-size: 1rem;
     }
-}
-@media(max-width: 780px){
     .text2{
         font-size: 0.8rem;
     }

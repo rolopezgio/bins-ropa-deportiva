@@ -1,0 +1,31 @@
+.header{
+    justify-content: space-between;
+    .logo .img .logoHeader {
+        width: 5rem;
+    }
+    .menu{
+        position: sticky;
+        top: 0;
+        .li a{
+            font-family: "Audiowide", cursive;
+        }
+    }
+}
+.inicio:hover{
+    text-decoration: underline;
+}
+.destacados:hover{
+    text-decoration: underline;
+}
+.indumentaria:hover{
+    text-decoration: underline;
+}
+.nosotros:hover{
+    text-decoration: underline;
+}
+.contacto:hover{
+    text-decoration: underline;
+}
+.card:hover {
+    border: 1px solid black !important;
+}
