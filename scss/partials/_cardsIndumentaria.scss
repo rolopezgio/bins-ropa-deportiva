@@ -1,9 +1,13 @@
-.cardBody * {
+.cardBodyMujer * {
 padding: 5px;
-display: flex;
-justify-content: center;
-align-items: center;
-.titleCards{
-    font-family: "Audiowide", cursive;
+@include flex(center, center, nowrap);
 }
+.titleCards{
+    font-family: $fuentePrincipal;
+}
+.cardBodyHombre {
+@extend .cardBodyMujer;
+}
+.card:hover {
+transform: scale(1.05);
 }

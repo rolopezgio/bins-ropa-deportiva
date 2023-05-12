@@ -8,14 +8,14 @@
 .header {
   justify-content: space-between;
 }
-.header .logo .img .logoHeader {
+.header .logo .logoHeader {
   width: 5rem;
 }
 .header .menu {
   position: sticky;
   top: 0;
 }
-.header .menu .li a {
+.header .menu li a {
   font-family: "Audiowide", cursive;
 }
 
@@ -76,14 +76,20 @@
   font-family: "Audiowide", cursive;
 }
 
-.cardBody * {
+.cardBodyMujer *, .cardBodyHombre * {
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
-.cardBody * .titleCards {
+
+.titleCards {
   font-family: "Audiowide", cursive;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .nosotrosSeccion {
@@ -99,15 +105,25 @@
 .nosotrosSeccion .textoNosotros .tituloNosotros {
   font-family: "Audiowide", cursive;
 }
+.nosotrosSeccion .textoNosotros .parrafoNosotros {
+  font-size: 1.2rem;
+}
 .nosotrosSeccion .textoNosotros .parrafoNosotros .logoNosotros {
   width: 3.5rem;
 }
 
+.footer {
+  background: rgb(255, 255, 254);
+  background: linear-gradient(90deg, rgb(255, 255, 254) 0%, rgb(153, 153, 153) 25%, rgb(0, 0, 0) 50%, rgb(128, 128, 128) 75%, rgb(255, 255, 255) 100%);
+}
 .footer .logoFooter a {
   font-size: x-large;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0;
 }
 .footer .logoFooter a:hover {
-  font-size: xx-large;
+  transform: rotateY(180deg);
 }
 
 @media (max-width: 768px) {
