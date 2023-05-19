@@ -148,4 +148,30 @@
   .text2 {
     font-size: 0.8rem;
   }
+  .seccionHombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .seccionHombre .img1 {
+    order: 1;
+  }
+  .seccionHombre .acordion1 {
+    order: 2;
+  }
+  .seccionHombre .img2 {
+    order: 3;
+  }
+  .seccionHombre .acordion2 {
+    order: 4;
+  }
+  .seccionHombre .img3 {
+    order: 5;
+  }
+  .seccionHombre .acordion3 {
+    order: 6;
+  }
+  .filaOffset {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=estilo.css.map */

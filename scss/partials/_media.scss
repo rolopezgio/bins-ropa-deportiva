@@ -13,4 +13,30 @@
     .text2{
         font-size: 0.8rem;
     }
+    .seccionHombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .img1{
+            order: 1;
+        }
+        .acordion1{
+            order: 2;
+        }
+        .img2{
+            order: 3;
+        }
+        .acordion2{
+            order: 4;
+        }
+        .img3{
+            order: 5;
+        }
+        .acordion3{
+            order: 6;
+        }
+    }
+    .filaOffset{
+        margin-left: 0;
+    }
 }
