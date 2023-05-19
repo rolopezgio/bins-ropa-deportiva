@@ -5,8 +5,11 @@ padding: 5px;
 .titleCards{
     font-family: $fuentePrincipal;
 }
-.cardBodyHombre {
-@extend .cardBodyMujer;
+.acordion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .card:hover {
 transform: scale(1.05);

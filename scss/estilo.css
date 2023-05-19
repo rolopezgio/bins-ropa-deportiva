@@ -76,7 +76,7 @@
   font-family: "Audiowide", cursive;
 }
 
-.cardBodyMujer *, .cardBodyHombre * {
+.cardBodyMujer * {
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -86,6 +86,13 @@
 
 .titleCards {
   font-family: "Audiowide", cursive;
+}
+
+.acordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card:hover {
